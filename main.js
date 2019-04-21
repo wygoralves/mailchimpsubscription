@@ -9,6 +9,12 @@ app.use(express.static("public"));
 app.get("/", function(req, res){
     res.sendFile(__dirname+"/index.html");
 });
+app.get("/success", function(req, res){
+    res.sendFile(__dirname+"/success.html");
+});
+app.get("/failed", function(req, res){
+    res.sendFile(__dirname+"/failed.html");
+});
 
 app.post("/", function(req, res){
     const fname = req.body.firstname;
@@ -38,10 +44,11 @@ app.post("/", function(req, res){
     };
 
     request(options, function(error, response, body){
-        if (response.statusCode(200)) {
-            console.log("Success!");
+        if (response.statusCode = 200) {
+            res.sendFile(__dirname+"/success.html");
         }else{
             console.log(response.statusCode);
+            res.sendFile(__dirname+"/failed.html");
         }
     });
 });

@@ -1,0 +1,13 @@
+.container {
+    text-align: center;
+    color: red;
+    padding: 10rem;
+}
+
+button {
+    margin-left: 3rem;
+}
+
+.fab {
+    font-size: 2rem;
+}
