@@ -8,11 +8,11 @@ app.get("/", function(req, res){
     res.sendFile(__dirname+"/index.html");
 });
 
-app.get("/style", function(req,res){
+app.get("/style.css", function(req,res){
     res.sendFile(__dirname+"/style.css");
 });
 
-app.get("/logo", function(req,res){
+app.get("/logo.png", function(req,res){
     res.sendFile(__dirname+"/logo.png");
 });
 

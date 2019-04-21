@@ -13,17 +13,44 @@
 
 <body>
     <div class="container">
-        <div class="col-md-12">
-            <div class="row">
-                <div>
-                    <img src="logo.png" alt="" srcset="logo.png">
+        <section id = "header">
+            <div class="row justify-content-center">
+                <div class="col-sm-12">
+                    <div>
+                        <img class="img-fluid" src="logo.png" alt="logo">
+                    </div>
                 </div>
-                <div>
-                    <h1>Signup to Wygor's Newsletters</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-12">
+                    <h1 class="display-3">Signup to</h1>
                 </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-12">
+                    <h1 class="display-4">Wygor's</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-12">
+                    <h1 class="display-3">Newsletters</h1>
+                </div>
+            </div>
+        </section>
+
+        <div class="row justify-content-center">
+            <div class="col-sm-4">
+                <form method="post" action="/">
+                    <input id="firstname" class="form-control" name="firstname" placeholder="First Name" type="text">
+                    <input id="lastname" class="form-control" name="lastname" placeholder="Last Name" type="text">
+                    <input id="email" class="form-control" name="email" placeholder="Email Adress" type="email">
+                    <button type="submit" class="btn btn-primary">Sign Up</button>
+                </form>
             </div>
         </div>
     </div>
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
