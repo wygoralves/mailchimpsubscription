@@ -18,5 +18,5 @@ app.get("/logo.png", function(req,res){
 });
 
 app.listen(3000, function(){
-    console.log("Example app listening on port port!");
+    console.log("Node server running on port 3000!");
 });

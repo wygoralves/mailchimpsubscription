@@ -1,7 +1,7 @@
 body{
-    background-image: url("https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=655&q=80");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(to right, #30e3ca, #35fce1);
+    color: #f5f5f5;
+    text-shadow: 1px 1px #40514e;
 }
 
 .container{
@@ -29,4 +29,12 @@ input{
 .btn{
     margin-top: 0.7rem;
     text-align: center;
+    background-color: #40514e;
+    color: #f5f5f5;
+    border: #f5f5f5;
+}
+
+.btn:hover{
+    background-color: #f5f5f5;
+    color: #40514e;
 }
